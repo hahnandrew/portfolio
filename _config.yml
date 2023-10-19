@@ -13,21 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Portfolio Site
-email: hahnandy0201@gmail.com
+title: Portfolio 
+email: hahnandy0201(at)gmail(dot)com
 description: >- # this means to ignore newlines until "baseurl:"
-  A place to share my work and developer portfolio. Feel free to reach out 
-  through my email!
+  A place to share my experiences and work as a developer. Feel free to get in contact with 
+  me through any of the socials listed.
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://hahnandrew.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: andrewh04116643
 github_username:  hahnandrew
 linkedin_username: andrew-hahn-986a3a157
+author: Andrew Hahn
+title_custom: Portfolio Site
 
 header_pages:
   - about.md
-  - hello.md
   - portfolio.md
+  - resume.md
+  - projects.md
 
 # Build settings
 markdown: kramdown

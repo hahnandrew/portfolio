@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+**Hello!** I’m **Andrew Hahn**, a multi-disciplined developer, particularly focused around building user-centered technology for healthcare and social good. I believe that with the right application, technology can be a powerful tool in bringing positive change to communities and societies at large.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Currently, I am studying computer science at **Cornell University**. I work as a research assistant for a computational biology lab developing software for phylodynamic analysis.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<!-- In my freetime,  -->
