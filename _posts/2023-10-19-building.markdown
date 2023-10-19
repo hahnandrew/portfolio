@@ -5,7 +5,7 @@ date:   2023-10-19 19:54:51 +0000
 categories: jekyll update
 ---
 
-In the midst of internship recruiting season, I wanted to build a landing page for people to get to my developer work better. I chose github pages for its hosting simplicity and jekyll for static site generation. In just a few hours, I was able to containerize my application, learn jekyll to style and structure my content, and ship.
+In the midst of internship recruiting season, I wanted to build a landing page for people to get to my developer work better. I chose github pages for its hosting simplicity and jekyll for static site generation. In just a few hours, I was able to containerize my application, learn jekyll to style and structure my content, set up a simple CI/CD process, and ship.
 
 The process was a breath of fresh air compared to framework-driven web projects I've shipped in the past and it was a neat lesson in the power of using the right technology for your use case.
 
