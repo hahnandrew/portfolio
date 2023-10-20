@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p style="text-indent: 2em;">
-<strong>Hello!</strong> I’m <strong>Andrew Hahn</strong>, a multi-disciplined developer, particularly focused around building user-centered technology for healthcare and social good. I believe that with the right application, technology can be a powerful tool in bringing positive change to communities and societies at large.
+<strong>Hello!</strong> I’m <strong>Andrew Hahn</strong>, a multi-disciplinary developer, particularly focused around building user-centered technology for healthcare and social good. I believe that with the right application, technology can be a powerful tool in bringing positive change to communities and societies at large.
 </p>
 
 <p style="text-indent: 2em;">
