@@ -10,7 +10,7 @@ In the midst of internship recruiting season, I wanted to build a landing page f
 </p>
 
 <p style="text-indent: 2em;">
-The process was a breath of fresh air compared to the framework-driven web projects I've shipped in the past and it was a good  reminder to always tailor technologies in your project to your use case. 
+The process was a breath of fresh air compared to the framework-driven web projects I've shipped in the past and it was a good  reminder to always tailor technologies to the use case.
 </p>
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
