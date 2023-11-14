@@ -16,7 +16,7 @@
 title: Portfolio 
 email: hahnandy0201(at)gmail(dot)com
 description: >- # this means to ignore newlines until "baseurl:"
-  A place to share my experiences and work as a developer. Feel free to get in contact with 
+  A place to share my experiences and work as a developer. Opinions expressed are solely my own and do not express the views or opinions of my employer. Feel free to get in contact with 
   me through any of the socials listed.
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://hahnandrew.github.io" # the base hostname & protocol for your site, e.g. http://example.com
