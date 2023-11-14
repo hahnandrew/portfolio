@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building Health Chronicles @ HackSC Hackathon"
+title:  "HackSC Hackathon: Building Health Chronicles"
 date:   2023-11-06 13:54:51 +0000
 categories: jekyll update
 ---

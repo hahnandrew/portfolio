@@ -29,8 +29,9 @@ title_custom: Portfolio Site
 header_pages:
   - about.md
   - portfolio.md
+  - professional.md
   # - resume.md
-  - projects.md
+  # - projects.md
 
 # Build settings
 markdown: kramdown

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building Clean Slate Initiative @ AI For Public Good Hackathon"
+title:  "AI For Public Good Hackathon: Building Clean Slate Initiative"
 date:   2023-10-23 13:54:51 +0000
 categories: jekyll update
 ---
