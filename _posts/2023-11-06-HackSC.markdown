@@ -1,0 +1,106 @@
+---
+layout: post
+title:  "Building Health Chronicles @ HackSC Hackathon"
+date:   2023-11-06 13:54:51 +0000
+categories: jekyll update
+---
+
+<p style="text-indent: 2em;">
+<strong>Imagine this:</strong> You’ve twisted your arm after a gruesome baseball accident. As your buddy is driving you to the hospital, the arm is swelling, bruising, the pain is growing sharper, and all you can think about is how panicked you are. But instead of the high chaos disorganized environment you are bracing for, the hospital already has your data, ready to integrate into their existing health IT systems, saving you that little bit of peace.
+</p>
+
+<p style="text-indent: 2em;">
+Health Chronicles aims to prevent patient harm before it occurs through robust data communication applications and rich integration into existing electronic health records systems.
+According to physicians in <a href="https://oig.hhs.gov/oei/reports/OEI-06-18-00400.pdf" target="_blank">this study</a>, nearly 42% of adverse patient harm is preventable.
+Over the weekend, I wanted to address this issue at USC's HackSC hackathon by building Health Chronicles, a web app targeting data errors that cause patient harm.
+</p>
+
+<p style="text-indent: 2em;">
+You access our web app by entering the URL healthchronicles.us. After logging in with google and allowing access to your current location, we display the nearest open urgent care clinics. Afterwards, we ask you for your symptoms in plain text, and use all of this data to form a stuctured patient health record PDF that is sent to your urgent care via gmail.
+</p>
+
+<p style="text-indent: 2em;">
+Healthcare workers then use this PDF to use for their EHR IT systems, and replaces <a href="https://epic-care.com/wp-content/uploads/2022/02/Epic-Care-New-Patient-Intake-Packet.2022.02.01.pdf
+" target="_blank">EPIC's New Patient Intake Form</a>. 
+
+<p style="text-indent: 2em;">
+Demo: <a href="https://youtu.be/hf6sIRehitg" target="_blank">https://youtu.be/hf6sIRehitg</a>
+</p>
+<p style="text-indent: 2em;">
+Devpost: <a href="https://devpost.com/software/healthchronicle" target="_blank">https://devpost.com/software/healthchronicle</a>
+</p>
+
+
+<!-- <iframe width="560" height="315" src="https://youtu.be/hf6sIRehitg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+</p>
+
+<br>
+<hr>
+<br>
+
+
+<div style="text-align: center;">
+    <strong>Tech Stack</strong>
+</div>
+<div style="margin-left: 20px;">
+    <ul>
+        <li><strong>Cloud providers:</strong>
+            <ul>
+                <li>Google Cloud Run</li>
+                <li>Vercel</li>
+                <li>Redis Cloud</li>
+                <li>Streamlit Cloud</li>
+            </ul>
+        </li>
+        <li><strong>APIs:</strong>
+            <ul>
+                <li>Google Maps API</li>
+                <li>Sendgrid Email</li>
+                <li>OpenAI</li>
+                <li>Beautiful Soup</li>
+            </ul>
+        </li>
+        <li><strong>Database:</strong> Redis Stack</li>
+        <li><strong>Web Framework:</strong> Next.js</li>
+        <li><strong>Domains:</strong> GoDaddy Domains - <a href="https://healthchronicles.us/" target="_blank">https://healthchronicles.us/</a></li>
+        <li><strong>Authentication:</strong> Firebase</li>
+        <li><strong>DevOps, CI/CD:</strong> Vercel</li>
+        <li><strong>Version Control:</strong> Git, Github - <a href="https://github.com/hahnandrew/healthchronicles" target="_blank">https://github.com/hahnandrew/healthchronicles</a></li>
+    </ul>
+</div>
+
+
+
+<br>
+<hr>
+<br>
+
+
+<div style="text-align: center; margin-bottom: 20px;">
+    <strong>Technical Decisions</strong>
+</div>
+<p style="text-indent: 2em;">
+Some technical decision making I faced were how the Streamlit chatapp and the parent Next.js app would communicate state. Since our streamlit app was rendered via iFrame, we decided with query parameters for this case - hospital name, the user's token, phone number, user's email, date and time, latitude, longitude, hospital address. This was with respect to our time and the Streamlit's constraints - in a real production environment, you would never want to communicate sensitive information like the user's token via the URL. 
+</p>
+
+<p style="text-indent: 2em;">
+We used Redis as our primary database, as it made the most sense for our data model; Patients are associated with all of their metadata, and our application had little use for relationships. We also had no use for complex queries and retrievals, because once a user goes through the flow, a static PDF is produced and is never updated. 
+</p>
+
+<br>
+<hr>
+<br>
+
+<div style="text-align: center; margin-bottom: 20px;">
+    <strong>Final Thoughts</strong>
+</div>
+
+<p style="text-indent: 2em;">
+Using all the different cloud technologies in conjunction with each other felt amazing, and really made me feel hopeful for the future of developer tools. In the past, deploying a website required intricate knowledge of DNS configurations, firewall settings, IP management, and setting up reverse proxies. Although these skills are still relevant for a serious project, deploying a working app for a proof of concept has never been easier.
+</p>
+
+<p style="text-indent: 2em;">
+The hackathon itself was a ton of fun. It was the first time I coded for 24 hours straight <a href="https://github.com/hahnandrew/healthchronicles/commits/main">(see my viscious commit history)</a>. I met many brilliant developers and creators, and our team got a prize for best GoDaddy Domain!
+</p>

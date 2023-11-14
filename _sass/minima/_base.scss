@@ -134,6 +134,47 @@ h6 {
 /**
  * Links
  */
+// a {
+//   color: $brand-color;
+//   text-decoration: none;
+//   position: relative;
+//   display: inline-block;
+
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     bottom: 0;
+//     left: 50%;
+//     width: 0;
+//     height: 1px;
+//     background-color: $text-color;
+//     transition: width 0.3s ease-out, left 0.3s ease-out; // Use "ease-out" timing function
+//   }
+
+//   &:visited {
+//     color: darken($brand-color, 15%);
+//   }
+
+//   &:hover {
+//     color: $text-color;
+
+//     &::before {
+//       width: 100%;
+//       left: 0;
+//       transition-timing-function: ease-in-out; // Use "ease-in-out" timing function
+//     }
+//   }
+
+//   .social-media-list &:hover {
+//     text-decoration: none;
+
+//     .username {
+//       // text-decoration: underline;
+//       text-decoration: none;
+//     }
+//   }
+// }
+
 a {
   color: $brand-color;
   text-decoration: none;
