@@ -30,6 +30,7 @@ header_pages:
   - about.md
   - portfolio.md
   - professional.md
+  # - publications.md
   # - resume.md
   # - projects.md
 
